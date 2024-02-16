@@ -4,6 +4,19 @@ import java.util.*;
 public class QuadraticSorts {
 
     /**
+     * @pre none
+     * @post elements in array appear in ascending order
+     */
+    // TODO write a short description of how bubble sort works
+    //
+    // TODO state the big O of bubble sort and explain why
+    //
+    public static void bogoSort(int[] array) {
+        // TODO implement bogo sort
+
+    }
+
+    /**
      * @pre  0 <= i, j < array.length
      * @post array is modified to swap the elements at i and j
      */
