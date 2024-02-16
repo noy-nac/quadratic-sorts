@@ -59,6 +59,7 @@ public class QuadraticSorts {
          * 2. print out the unsorted array
          * 3. sort the array using your sorting functions
          * 4. print out the sorted array
+         * 5. display the min, max, and middle value (median) of the class data
          */
         
     }
