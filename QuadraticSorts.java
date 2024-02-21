@@ -22,7 +22,7 @@ public class QuadraticSorts {
     // explain why
     //
     public static void bogoSort(int[] array) {
-        // TODO implement bogo sort (+1 point extra credit)
+        // TODO implement bogo sort
 
     }
 
@@ -36,7 +36,7 @@ public class QuadraticSorts {
     // explain why
     //
     public static void booneSort(int[] array) {
-        // TODO implement Boone sort (+1 point extra credit)
+        // TODO implement Boone sort
 
     }
 
