@@ -94,12 +94,12 @@ public class QuadraticSorts {
     //    otherwise return true
     //
     //    BEST CASE: O(1) because array could have its first two elements be unsorted, e.g., {1, 0, 1, 2, 3}
-    // AVERAGE CASE: O(n) because in general the out of order will be roughly in the center of the array
-    //                    so the amount of the array we have to check will be a proportion of n
+    // AVERAGE CASE: O(n) because on average the element out of order will be roughly in the center of the array
+    //                    so the amount of the array we have to check will be a proportion of the array length, n
     //   WORST CASE: O(n) because array could be fully sorted, e.g., {0, 1, 2, 3}
     //                    in this case we have to check the whole array
     public static boolean isSorted(int[] array) {
-        for(int i = 0; i < array.length - 2; i++) {
+        for(int i = 0; i < array.length - 1; i++) {
             if(array[i + 1] < array[i]) {
                 return false;
             }
