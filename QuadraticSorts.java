@@ -107,7 +107,7 @@ public class QuadraticSorts {
         return true;
     }
 
-    public static void main() {
+    public static void main(String[] args) {
         /**
          * TODO sort the data we generated in class
          * 
